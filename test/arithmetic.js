@@ -59,6 +59,14 @@ describe('Arithmetic', function() {
               done();
           });
     });
+     it('adds two positive big integers', function(done) {
+      request.get('/arithmetic?operation=add&operand1=1245124&operand2=1245124')
+          .expect(200)
+          .end(function(err, res) {
+              expect(res.body).to.eql({ result: 2490248‬ });
+              done();
+          });
+    });
     it('adds zero to an integer', function(done) {
       request.get('/arithmetic?operation=add&operand1=42&operand2=0')
           .expect(200)
