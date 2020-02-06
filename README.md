@@ -286,6 +286,6 @@ And that's it for a quick look through a simple multi-stage deployment to App Se
 Adding a bit of complexity...
 
 ## Reference: getting started on App Service
-1. [Create a free Azure account](https://azure.microsoft.com/en-us/free/) if you don't already have one
+1. [Create a free Azure account](https://azure.microsoft.com/en-us/free/) if you donot already have one
 2. [Follow this quick guide](https://docs.microsoft.com/en-us/learn/modules/host-a-web-app-with-azure-app-service/3-exercise-create-a-web-app-in-the-azure-portal?pivots=node) on creating an App Service for a Node app
 
