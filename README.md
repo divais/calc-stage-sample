@@ -1,6 +1,6 @@
 A simple node app with Azure Pipelines and App Service
 ======================================================
------------------
+
 This pipeline is based off of [a sample node app by Ed Thomson](https://github.com/calculator-demo/calculator) that lets you do basic math operations in a browser-based calculator. All the math happens on the server, so we've been referring to it as 1+1... as-a-service. The goal of this is to provide some familiarity with Azure Pipelines and actions YAML concepts and functionality so you can get get off and running quickly.
 
 [![Build Status](https://dev.azure.com/calculator-sample/calculator-sample/_apis/build/status/matthewisabel.calc-stage-sample?branchName=master)](https://dev.azure.com/calculator-sample/calculator-sample/_build/latest?definitionId=2&branchName=master)
