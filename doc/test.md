@@ -1,2 +1,2 @@
 ## Test
-this is a test file for markdowns
+This is a test file for markdown.
