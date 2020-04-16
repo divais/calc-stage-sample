@@ -3,7 +3,7 @@ name: Node CI
 on: 
   push:
     paths-ignore: 
-      - 'doc/**'
+      - 'doc/*.*'
 
 jobs:
   build:
